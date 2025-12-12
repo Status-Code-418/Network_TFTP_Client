@@ -12,7 +12,7 @@ SoftWare
 Python Code(Program) Command
 
 ▷ baseline) python3 [TFTP Client Code file] [host] [options(get|put)] [file name]
-  - python3 TFTP_Client.py 192.168.0.1 get abcd.txt
+        - python3 TFTP_Client.py 192.168.0.1 get abcd.txt
       
   baseline) python3 [TFTP Client Code file] [host] [-port] [options(get|put)] [file name]
             => python3 TFTP_Client.py 192.168.0.1 -p 9988 get abcd.txt
