@@ -22,9 +22,11 @@ Python Code(Program) Command
       python3 TFTP_Client.py 192.168.0.1 -p 9988 get abcd.txt
       python3 TFTP_Client.py 192.168.0.1 -p 9988 put abcd.txt
 
-TFTP Server Command
+TFTP Server Setting
   Server install command
     - sudo apt install tftpd-hpa
+
+  Server conf file
   
   Server status check command
     - sudo systemctl status tftpd-hpa
