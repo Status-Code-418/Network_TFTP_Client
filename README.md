@@ -17,11 +17,11 @@ Python Code(Program) Command
             => python3 TFTP_Client.py 192.168.0.1 -p 9988 get abcd.txt
 
   ex) 
-      python3 TFTP_Client.py 192.168.0.1 get abcd.txt
-      python3 TFTP_Client.py 192.168.0.1 put abcd.txt
+      - python3 TFTP_Client.py 192.168.0.1 get abcd.txt
+      - python3 TFTP_Client.py 192.168.0.1 put abcd.txt
 
-      python3 TFTP_Client.py 192.168.0.1 -p 9988 get abcd.txt
-      python3 TFTP_Client.py 192.168.0.1 -p 9988 put abcd.txt
+      - python3 TFTP_Client.py 192.168.0.1 -p 9988 get abcd.txt
+      - python3 TFTP_Client.py 192.168.0.1 -p 9988 put abcd.txt
 
 TFTP Server Command
   Server install command
