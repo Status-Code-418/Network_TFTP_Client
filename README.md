@@ -23,4 +23,8 @@ Python Code(Program) Command
       python3 TFTP_Client.py 192.168.0.1 -p 9988 put abcd.txt
 
 TFTP Server Command
-  # 서버 상태 확인
+  Server install command
+    - sudo apt install tftpd-hpa
+  
+  Server status check command
+    - sudo systemctl status tftpd-hpa
