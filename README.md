@@ -1,6 +1,6 @@
 # Network_TFTP_Client
 
-TFTP Client Python Code
+□  TFTP Client Python Code
 
 OS
   - Windows
@@ -25,7 +25,7 @@ Python Code(Program) Command
   - python3 TFTP_Client.py 192.168.0.1 -p 9988 put abcd.txt
 
 ▷ TFTP Server Setting
-  Server install command
+Server install command
   - sudo apt install tftpd-hpa
 
   Server conf file
