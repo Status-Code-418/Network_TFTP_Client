@@ -3,12 +3,12 @@
 TFTP 클라이언트 프로그램
 
 사용법 예시(명령어 구문):
-$ python3 [tftp cli 코드] host [-p port] [get|put] filename
+$ python3 [tftp client 코드] host [-p port] [get|put] filename
 
 예시:
-   $ python test.py 192.168.1.197 get 102.txt
-   $ python test.py 192.168.1.197 put 102.txt
-   $ python test.py 192.168.1.197 -p 9988 get 102.txt
+   $ python TFTP_Client.py 192.168.1.197 get test.txt
+   $ python TFTP_Client.py 192.168.1.197 put test.txt
+   $ python TFTP_Client.py 192.168.1.197 -p 9988 get test.txt
 '''
 
 # 호출 라이브러리 목록
