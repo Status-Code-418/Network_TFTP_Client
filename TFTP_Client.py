@@ -6,9 +6,9 @@ TFTP 클라이언트 프로그램
 $ python3 [tftp client 코드] host [-p port] [get|put] filename
 
 예시:
-   $ python TFTP_Client.py 192.168.1.197 get test.txt
-   $ python TFTP_Client.py 192.168.1.197 put test.txt
-   $ python TFTP_Client.py 192.168.1.197 -p 9988 get test.txt
+   $ python TFTP_Client.py 192.168.1.197 get abcd.txt
+   $ python TFTP_Client.py 192.168.1.197 put abcd.txt
+   $ python TFTP_Client.py 192.168.1.197 -p 9988 get abcd.txt
 '''
 
 # 호출 라이브러리 목록
