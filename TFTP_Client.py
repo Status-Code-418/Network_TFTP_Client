@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# tested with Python 3.8.10 on Ubuntu 20.04 LTS
 '''
 TFTP 클라이언트 프로그램
 
